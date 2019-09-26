@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
         }
 
-        txtPercentage.append("Name: "+viewname+"             Percentage "+result+System.lineSeparator());
+        txtPercentage.append("Name: "+viewname+"             Percentage: "+result+System.lineSeparator());
         etName.getText().clear();
         etFirst.getText().clear();
         etSecond.getText().clear();
